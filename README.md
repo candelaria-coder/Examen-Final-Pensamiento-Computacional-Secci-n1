@@ -20,14 +20,28 @@ estado 2 = Pantalla de victoria (Mensaje ganador e invitación a volver a jugar)
 
 ### Inputs
 Barra espaciadora: Da inicio al juego
+
 ![I](imagenes/inicio.jpg)
 
 
 ENTER: Cumple la funcion de girar aleatoriamente los simbolos
+
+![J](imagenes/juego.jpg)
+
+
 R: Reinicio del juego al ganar
 
+![F](imagenes/fin.jpg)
+
+
 ### Outputs
+
+
 Cambio de símbolos: 🍒, 💎, ⭐, ❤️, 🔔
+
+![s](imagenes/fin.jpg)
+
+
 Puntaje: Hasta 5 puntos
 Mensaje JACKPOT+sonido: Al ganar un punto
 Pantalla final: Cuando ganas los 5 puntos
