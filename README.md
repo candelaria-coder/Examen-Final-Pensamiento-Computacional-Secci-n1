@@ -42,9 +42,14 @@ R: Reinicio del juego al ganar
 ![s](imagenes/simbolos.jpg)
 
 
+#### Sonido
+
+![
+
+
 #### Puntaje: Hasta 5 puntos
 
-Presionar ENTER -> Se generan tres símbolos aleatorios -> El programa compara los símbolos -> ¿Son iguales? -> Sí = suma punto + Activa sonido + Muestra JACKPOT -> ¿Tiene 5 puntos? -> Sí = cambia al estado final
+Al presionar la tecla ENTER, el sistema genera tres símbolos aleatorios utilizando la función random(). Luego compara los resultados obtenidos y verifica si los tres símbolos coinciden. Cuando esto ocurre, se suma un punto al puntaje, se reproduce un sonido de recompensa y aparece temporalmente el mensaje "JACKPOT +1". Finalmente, el sistema comprueba si el jugador ha alcanzado cinco puntos; y si es el caso, cambia automáticamente al estado final de victoria.
 
 ![R](imagenes/resultado.jpg)
 
@@ -63,4 +68,16 @@ Además, hice uso de la función "millis()" para registrar el momento exacto en 
 
 ![P](imagenes/pregunta.jpg)
 
+### Reflexión final y Decisiones
 
+#### Principales decisiones tomadas
+
+Una de las principales decisiones del proyecto fue organizar el sistema en tres estados diferenciados: pantalla de inicio (estado 0), juego (estado 1) y pantalla final (estado 2). Esta estructura permitió que la interacción evolucionara de manera clara y ordenada. Además, se incorporó un sistema multimedia mediante sonido y mensajes visuales temporales para reforzar la experiencia del usuario cuando obtiene una combinación ganadora.
+
+#### Dificultades encontradas
+
+La principal dificultad fue gestionar correctamente los cambios entre estados para que cada pantalla tuviera una lógica y función específica dentro del sistema. También resultó desafiante integrar el sonido de recompensa y sincronizarlo con la aparición del mensaje de JACKPOT. Para ello fue necesario comprender el uso de la función "millis()", que permitió controlar el tiempo de visualización del mensaje sin interrumpir el funcionamiento general del programa.
+
+#### Aprendizajes obtenidos
+
+A través de este proyecto pude comprender mejor cómo construir sistemas interactivos utilizando variables, condicionales, funciones y eventos. También aprendí a trabajar con estados para organizar la lógica de un programa más complejo, a utilizar recursos multimedia como imágenes y sonidos dentro de p5.js, y a emplear funciones como "random()" y "millis()" para generar comportamientos dinámicos y temporales en la interacción.
