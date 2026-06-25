@@ -71,6 +71,17 @@ Además, hice uso de la función "millis()" para registrar el momento exacto en 
 
 ![P](imagenes/pregunta.jpg)
 
+
+### Uso de Console
+
+"console.log()" es una función de salida orientada al desarrollador. Se utiliza para mostrar información del programa en la consola con fines de monitoreo y depuración, permitiendo verificar que los eventos, variables y procesos están funcionando correctamente. En el caso del Traga Monedas, este marca la cantidad de veces que se presiona ENTER en la ronda de juego hasta ganar los 5 puntos.
+
+### Color
+
+Despues de crear mi Diagrama de Flujo, consulté a ChatGPT por los codigos de color del diagrama para que el sistema del Traga Monedas y este tuvieran mas relación entre ellos.
+
+
+
 ### Reflexión final y Decisiones
 
 #### Principales decisiones tomadas
