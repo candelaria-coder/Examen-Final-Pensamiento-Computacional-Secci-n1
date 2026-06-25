@@ -59,7 +59,8 @@ Además, hice uso de la función "millis()" para registrar el momento exacto en 
 ![M](imagenes/millis.jpg)
 ![M2](imagenes/millis2.jpg)
 
-Este mecanismo permite generar una respuesta visual temporal que informa claramente al usuario cuando obtiene una combinación ganadora.
+*Para este comando hice uso de ChatGPT:
 
-![M3](imagenes/millis3.jpg)
+![P](imagenes/pregunta.jpg)
+
 
