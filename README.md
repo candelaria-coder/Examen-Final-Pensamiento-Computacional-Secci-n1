@@ -83,4 +83,4 @@ La principal dificultad fue gestionar correctamente los cambios entre estados pa
 
 #### Aprendizajes obtenidos
 
-A través de este proyecto pude comprender mejor cómo construir sistemas interactivos utilizando variables, condicionales, funciones y eventos. También aprendí a trabajar con estados para organizar la lógica de un programa más complejo, a utilizar recursos multimedia como imágenes y sonidos dentro de p5.js, y a emplear funciones como "random()" y "millis()" para generar comportamientos dinámicos y temporales en la interacción.
+A través de este proyecto pude comprender mejor cómo construir sistemas interactivos utilizando variables, condicionales, funciones y eventos. También aprendí a trabajar con estados para organizar la lógica de un programa más complejo, a utilizar recursos multimedia como imágenes y sonidos dentro de p5.js, y a emplear funciones como "random()", variables boolean "true/false" y "millis()" para generar comportamientos dinámicos y temporales en la interacción.
