@@ -47,7 +47,7 @@ R: Reinicio del juego al ganar
 Implementación de sonido ganador:
 
 ![SO](imagenes/sonido.jpg)
-![SO2](imagene/sonido2.jpg)
+![SO2](imagenes/sonido2.jpg)
 
 
 #### Puntaje: Hasta 5 puntos
